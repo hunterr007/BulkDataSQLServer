@@ -23,8 +23,8 @@ public class WinAuthSQLServer {
 			
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			String connectionString = "jdbc:sqlserver://;serverName=localhost;databaseName=master;integratedSecurity=true;";
-	        String uName="RFL207\\prashant";
-	        String pWord="bareilly";
+	        String uName="RFL20\\p";
+	        String pWord="";
 			conn = DriverManager.getConnection(connectionString,uName,pWord);
 			
 			
